@@ -36,10 +36,13 @@ int main()
 	}
 
 	vector<string> cmds = {
-		"create table pmtab('First Name' varchar(32), 'Last Name' varchar(32), Address varchar(100))",
-		"insert into pmtab('First Name', 'Last Name', Address) values ('John', 'Doe', '2181 Capitol Av. East Palo Alto')",
-		"insert into pmtab('First Name', 'Last Name', Address) values ('Prab', 'Rocker', '221 Baker St. West London')",
-		"insert into pmtab('First Name', 'Last Name', Address) values ('Alice', 'Bell', '1418 Collins St. Melbourne')",
+		"create table pmtab('FName' varchar(32), 'Last Name' varchar(32), Address varchar(100))",
+		"insert into pmtab('FName', 'Last Name', Address) values ('John', 'Doe', '2181 Capitol Av. East Palo Alto')",
+		"insert into pmtab('FName', 'Last Name', Address) values ('Prab', 'Rocker', '221 Baker St. West London')",
+		"insert into pmtab('FName', 'Last Name', Address) values ('Alice', 'Bell', '1418 Collins St. Melbourne')",
+		"delete from pmtab where FName = 'Prab'",
+		"select * from pmtab",
+		"insert into pmtab('FName', 'Last Name', Address) values ('Joe', 'Focker', '221 Baker St. West London')",
 		"select * from pmtab"
 	};
 
