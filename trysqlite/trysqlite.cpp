@@ -43,6 +43,8 @@ int main()
 		"delete from pmtab where FName = 'Prab'",
 		"select * from pmtab",
 		"insert into pmtab('FName', 'Last Name', Address) values ('Joe', 'Focker', '221 Baker St. West London')",
+		"select * from pmtab",
+		"update pmtab set Fname='Prab' where `Last Name`='Focker'",
 		"select * from pmtab"
 	};
 
