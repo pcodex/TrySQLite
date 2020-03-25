@@ -1,0 +1,16 @@
+Debug
+./Debug/
+*.db
+*.vcxproj
+*.filters
+*.user
+*.vs
+*.db
+*.tlog
+*.log
+*.obj
+*.idb
+*.pdb
+*.dll
+*.exe
+*.ilk
