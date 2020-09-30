@@ -36,7 +36,7 @@ int main()
 	}
 
 	vector<string> cmds = {
-		"create table pmtab('FName' varchar(32), 'Last Name' varchar(32), Address varchar(100))",
+		"create table pmtab('FName' varchar(45), 'Last Name' varchar(45), Address varchar(100))",
 		"insert into pmtab('FName', 'Last Name', Address) values ('John', 'Doe', '2181 Capitol Av. East Palo Alto')",
 		"insert into pmtab('FName', 'Last Name', Address) values ('Prab', 'Rocker', '221 Baker St. West London')",
 		"insert into pmtab('FName', 'Last Name', Address) values ('Alice', 'Bell', '1418 Collins St. Melbourne')",
